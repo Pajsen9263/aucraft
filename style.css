@@ -1,0 +1,45 @@
+	body {
+	    background-image: url('background.jpg');
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-color: #1a1a1a;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    height: 100vh;
+	    margin: 0;
+	    font-family: 'Arial', sans-serif;
+	}
+
+	.container {
+	    background-color: rgba(50, 50, 50, 0.7);
+	    padding: 30px;
+	    border-radius: 10px;
+	    text-align: center;
+	}
+
+	h1 {
+	    color: #fff;
+	    font-size: 40px;
+	    margin-bottom: 20px;
+	}
+
+	.loader {
+	    border: 4px solid #fff;
+	    border-top: 4px solid #00bfff;
+	    border-radius: 50%;
+	    width: 40px;
+	    height: 40px;
+	    animation: spin 2s linear infinite;
+	    margin: 0 auto;
+	}
+
+	@keyframes spin {
+	    0% {
+	        transform: rotate(0deg);
+	    }
+
+	    100% {
+	        transform: rotate(360deg);
+	    }
+	}
